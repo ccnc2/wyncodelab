@@ -2,36 +2,46 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  font-family: 'Lobster', cursive;
+header,main{
+  text-align: center;
 }
-
-#title {
-  color: rgba(0,0,128, 0.8); 
-}
-
 nav{
   background-color: #000;
   color: #fff;
-  height: 50px;
+  height: 20px;
   padding: 20px;
   margin: 20px;
-  border: 20px inset deeppink;
-  boarder-radius: 10px
+  border: 5px inset grey;
+  border-radius: 5px;
 }
 
-.rounded-image {
+.rounded-image{
   border-radius: 50%;
   width: 200px;
 }
 
+section{
+  overflow: hidden;
+  width: 680px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
 section div{
-  float: left;
   border: 1px solid #000;
-  height: 100px;
-  width: 100px;
-  box-shadow: 0px 0px 4px 0px #0e0f0e;
+  height: 150px;
+  width: 150px;
+  box-shadow: 0px 1px 42px 0px #0e0f0e;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+  float:left;
+  margin: 10px;
+  transition: 1s all;
+}
+
+section div:hover{
+
+  background-color: grey;
+  margin-top: -10px;
 }
