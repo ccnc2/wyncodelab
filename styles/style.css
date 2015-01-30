@@ -24,3 +24,9 @@ nav{
   border-radius: 50%;
   width: 200px;
 }
+
+section div{
+  border: 1px solid #000;
+  height: 100px;
+  width: 100px;
+}
