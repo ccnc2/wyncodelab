@@ -16,5 +16,6 @@ nav{
   height: 50px;
   padding: 20px;
   margin: 20px;
-  border: 2px inset deep pink;
+  border: 2px inset red;
+  boarder-radius: 10px
 }
