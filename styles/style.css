@@ -19,3 +19,7 @@ nav{
   border: 20px inset deeppink;
   boarder-radius: 10px
 }
+
+rounded-image {
+  border-radius: 50%;
+}
